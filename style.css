@@ -1,0 +1,95 @@
+/* Reset & Base */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+    background-color: #fffdf7;
+    color: #3d2c1e;
+    line-height: 1.6;
+}
+
+a {
+    color: #c79200;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0 0 1rem;
+}
+
+section {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.hero {
+    background-color: #fff4cc;
+    padding: 4rem 1.5rem;
+    border-bottom: 2px solid #fdd835;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.hero span {
+    color: #d17e00;
+    font-weight: bold;
+}
+
+.about {
+    background-color: #fffdf7;
+}
+
+.services {
+    background-color: #fff4cc;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: 1px dashed #fbc02d;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card h3 {
+    color: #5d4037;
+    margin-bottom: 1rem;
+}
+
+.portfolio {
+    background-color: #fffdf7;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.tile {
+    background: #ffe6b3;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    font-weight: bold;
+    color: #5d4037;
+}
+
+.contact {
+    background-color: #fff4cc;
+}
